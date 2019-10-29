@@ -1,0 +1,32 @@
+﻿@model List<TimePersons.Models.TimePerson>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results Page</title>
+    <link rel="stylesheet" href="~/css/reset.css" />
+    <link rel="stylesheet" href="~/css/styles.css" />
+</head>
+<body>
+    <h1>Results of Filter</h1>
+    <table>
+        <thead>
+            <td>Year</td>
+            <td>Name</td>
+            <td>Title</td>
+            <td>Category</td>
+            <td>Context</td>
+        </thead>
+    @foreach (var person in Model)
+    {
+        <tr>
+            <td>@person.Year</td>
+            <td>@person.Name</td>
+            <td>@person.Title</td>
+            <td>@person.Category</td>
+            <td>@person.Context</td>
+        </tr>
+    }
+    </table>
+</body>
+</html>

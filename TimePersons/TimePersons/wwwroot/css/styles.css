@@ -1,2 +1,46 @@
 ﻿body {
+    width: 960px;
+    border: solid red 30px;
+    padding: 30px;
+}
+h1 {
+    color: darkred;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 700px;
+}
+
+form {
+    width: 550px;
+    margin: auto;
+}
+table {
+    width: auto;
+    margin: auto;
+}
+
+td {
+    padding: 2px;
+}
+
+tr td {
+    border: red 3px solid;
+}
+
+thead td {
+    border: black 3px solid;
+    color: white;
+    background-color: red;
 }
